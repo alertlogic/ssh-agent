@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 
 ENV SOCKET_DIR /ssh
 ENV SSH_AUTH_SOCK ${SOCKET_DIR}/auth/sock
